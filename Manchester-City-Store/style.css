@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.product {
+    background-color: #a7a7a7;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.product h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.product p {
+    color: black;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.product button {
+    background-color: #202020;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #666;
+    transition: 0.5s;
+}
+
+.navbar {
+    background-color: #202020;
+    color: #fff;
+    padding: 10px ;
+    height: 90px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    color: aqua;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 25px;
+}
+
+.nav-links li a:hover {
+    color:  rgb(43, 153, 255);
+}
+
+.search-form {
+    display: flex;
+}
+
+.search-form input[type="text"] {
+    padding: 8px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+.search-form button {
+    padding: 8px 15px;
+    background-color:  rgb(43, 153, 255);
+    border: none;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.search-form button:hover {
+    background-color: rgb(49, 49, 255);
+}
+
+span{
+    color: rgb(43, 153, 255);
+}
